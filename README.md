@@ -9,10 +9,15 @@ Sample Code for [my blog post]().
 First of all you have to install `libvlc`. This can be done like that:
 
 Ubuntu/Linux Mint/Debian/...: `sudo apt install libvlc-dev`
+
 Fedora/RHEL/CoreOS/...: `sudo dnf install libvlc-devel`
+
 Arch Linux/Manjaro/...: `sudo pacman -S libvlc`
+j
 OSX/Mac: brew install --cask vlc
+
 Windows: You have to compile the code yourself: https://wiki.videolan.org/VLC_Source_code/ + Have to add the location of the libvlc.so to the `libvlc.def`-file's `linkerOpts` parameter
+
 
 `sound.mp3` is taken from https://pixabay.com/sound-effects/dr-tribal-percussion-triplet-loop-high-passed-106bpm-25935/
 
