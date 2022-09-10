@@ -18,6 +18,7 @@ OSX/Mac: brew install --cask vlc
 
 Windows: You have to compile the code yourself: https://wiki.videolan.org/VLC_Source_code/ + Have to add the location of the libvlc.so to the `libvlc.def`-file's `linkerOpts` parameter
 
+If your IDE can't find `libvlc` in the `Main.kt` file, just click on the Run Arrow next to the `main()` function.
 
 `sound.mp3` is taken from [here](https://pixabay.com/sound-effects/dr-tribal-percussion-triplet-loop-high-passed-106bpm-25935/).
 
