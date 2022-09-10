@@ -23,6 +23,8 @@ kotlin {
         compilations.getByName("main") {
             cinterops {
                 val libvlc by creating
+                //  Put libhelloworld.so in /lib before executing this this on
+                // val libhelloworld by creating
             }
         }
 

@@ -1,0 +1,4 @@
+compilerOpts = -I /usr/include -I helloworldlib
+headers = helloworld.h
+
+linkerOpts = -L /lib64 -L /lib64/vlc  -L /lib -L /opt/local/lib -L /opt/local/lib/vlc -L /usr/local/opt/ -L /usr/local/opt/vlc  -l helloworld

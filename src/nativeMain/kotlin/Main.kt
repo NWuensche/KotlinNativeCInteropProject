@@ -1,7 +1,12 @@
 import libvlc.*
 import platform.posix.sleep
+//import libhelloworld.*
 
 fun main(args: Array<String>) {
+/*    Put libhelloworld.so in /lib before executing this this on
+    val x = hello() //should be 42
+    println("Return value was $x")*/
+
     val SOUND_FILE = "sound.mp3"
 
     val inst = libvlc_new(0, null)
