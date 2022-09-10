@@ -2,7 +2,7 @@
 
 Example on how to call third-party as well as custom C code from Kotlin Native.
 
-Sample Code for [my blog post]().
+Sample Code for [my blog post](https://flyingbytes.github.io/programming/android/kotlin/native/c/interop/interoperability/2022/09/10/Kotlin-Native-C-Interop.html).
 
 ## Play sound through libvlc
 
